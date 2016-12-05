@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "An index that maps character indices in the buffer to 2d coordinates.",
   "main": "build/Release/buffer_offset_index",
+  "browser": "test/reference-buffer-offset-index.js",
   "scripts": {
     "test": "node-gyp rebuild && mocha test/**/*.test.js",
     "install": "node-gyp rebuild"
